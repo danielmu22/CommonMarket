@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
+    font-family: verdana;
+    src: url(./../fonts/40474_VerdanaBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+    width: 100%;
+}
+
+/*  BARRA DE NAVEGACIÓN  */
+#nav {
+    background-color: white;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+#nav .logo-menu {
+    display: block;
+}
+
+
+
+#nav .logo-menu ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 1em;
+}
+
+#nav .logo-menu>ul>li a {
+    transition: all 300ms;
+}
+
+.barraSeparadora {
+    border-left: 2px solid #5a9841;
+}
+
+#nav .logo-menu>ul>li a {
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#nav .logo-menu>ul>li a:hover {
+    color: #78AA41;
+    text-decoration: none;
+}
+
+#nav .logo-menu>ul>li a:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+.green-stripe {
+    width: auto;
+    height: 0.2em;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #78AA41;
+    margin-bottom: 1em;
+}
+
+/*  PRIMERA SECCIÓN DESCUBRE COMMON MARKET Y FORMULARIO  */
+.green {
+    color: #78AA41;
+    font-weight: bold;
+}
+
+.primeraSeccion {
+    display: block;
+    margin-top: 1em;
+}
+
+.descripcionVideo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.descripcionVideo h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.descripcionVideo p {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.formularioSocioNuevo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formularioSocioNuevo p {
+    margin-top: 3em;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+
+
+.formularioSocioNuevo form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+.formularioSocioNuevo form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.formularioSocioNuevo form input:focus {
+    border: 2px solid #78AA41;
+    box-shadow: 0 0 3px #78AA41;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.formularioSocioNuevo form input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 17.5px 0;
+    display: inline-block;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.formularioSocioNuevo form input[type=number]:focus {
+    border: 2px solid #78AA41;
+    box-shadow: 0 0 3px #78AA41;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.cajaTelefono {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.g-recaptcha {
+    width: 48%;
+}
+
+.descripcionVideo iframe {
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+
+}
+
+.containerbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    font-size: 16px;
+    border-radius: 2em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Helvetica;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 2em;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin: 1em auto;
+}
+
+/*  SOBRE NOSOTROS  */
+#sobreNosotros {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #1E1E19;
+
+}
+
+#sobreNosotros .textobanner {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    align-self: flex-start;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 10%;
+    height: 140px;
+}
+
+#sobreNosotros .textobanner img {
+    width: 190px;
+    height: 140px;
+}
+
+#sobreNosotros .textobanner .eslogan {
+
+    height: 60%;
+    width: 100%;
+}
+
+#sobreNosotros .textobanner .eslogan .connect {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: verdana;
+}
+
+#sobreNosotros .textobanner .nosotros h3 {
+    display: inline-block;
+    flex-direction: row;
+    font-size: 1em;
+    margin-top: -0.3em;
+    margin-left: 1em;
+}
+
+#sobreNosotros .textobanner .nosotros span {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+#sobreNosotros .textobanner .nosotros {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#sobreNosotros .info {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    height: 1300px;
+}
+
+.ahorro {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.ahorro img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.ahorro p {
+    text-align: center;
+}
+
+.tituloSobreNosotros {
+    font-size: 2em;
+}
+
+.textoSobreNosotros {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+#sobreNosotros .info .ahorro .white-stripe,
+#sobreNosotros .info .cooperacion .white-stripe,
+#sobreNosotros .info .eficiencia .white-stripe,
+#sobreNosotros .info .economia .white-stripe {
+    width: auto;
+    height: 0.1em;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(61, 61, 61);
+}
+
+.textobajo {
+    margin-top: 2em;
+    border-top: 1px solid white;
+}
+
+.cooperacion {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cooperacion img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.cooperacion p {
+    text-align: center;
+}
+
+.eficiencia {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.eficiencia img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.eficiencia p {
+    text-align: center;
+}
+
+.economia {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.economia img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.economia p {
+    text-align: center;
+}
+
+.img-banner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-banner img {
+    height: 200px;
+    width: auto;
+    margin-top: 2em;
+
+}
+
+.btn-inform {
+    background-color: #5a9841;
+    border-radius: 2em;
+    border: none;
+    width: 100%;
+    font-size: 1.25em;
+    padding: 0.5em 3em;
+    margin-top: 4em;
+    color: white;
+}
+
+.btn-inform:hover{
+    background-color: #30581e;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 0.15em 2em;
+}
+
+.btn-inform2 {
+    background-color: #5a9841;
+    border-radius: 2em;
+    border: none;
+    width: 100%;
+    font-size: 1.25em;
+    padding: 0.5em 3em;
+    margin-top: 1em;
+    color: white;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -2em;
+}
+
+.buttonInformation {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1fr;
+    padding-bottom: 2em;
+}
+
+/*  CUALIDADES EMPRESA  */
+.cualidadesEmpresa {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-color: white;
+}
+
+.logoconFlechas{
+    display: flex;
+    justify-content: center;
+    margin: 22em auto;
+    width: 300px;
+}
+
+.calidadVida {
+    width: 42%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+.calidadVida img {
+    width: 125px;
+    height: 125px;
+    border-radius: 150px;
+    border-radius: 50%;
+}
+
+.carneSabrosa {
+    width: 42%;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.carneSabrosa img {
+    width: 125px;
+    height: 125px;
+    border-radius: 150px;
+    border-radius: 50%;
+}
+
+.masCualidades {
+    width: 42%;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+}
+
+.masCualidades img {
+    width: 125px;
+    height: 125px;
+    border-radius: 150px;
+    border-radius: 50%;
+}
+
+.botonMasInformacion {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.textoPDF {
+    color: white;
+    margin-top: 1em;
+    font-size: 1.1em;
+}
+
+/*  SLOGAN  */
+.fotoVacas {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    margin-top: 3em;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url("./../img/vacasSlogan.jpg");
+    position: relative;
+}
+
+.textoFotoVacas {
+    position: absolute;
+    top: 2em;
+    left: 0;
+    color: white;
+    z-index: 20;
+}
+
+/*  POR QUE ELEGIR COMMON MARKET  */
+.porqueElegirCommonMarketPyme {
+    width: 90%;
+    margin: 2em auto;
+    background-color: #1E1E19;
+    padding: 2em;
+    color: white;
+    position: relative;
+}
+
+.porqueElegirCommonMarketPyme h3 {
+    font-size: 2em;
+}
+
+.explicaciones p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #adacac;
+    font-size: 1.2em;
+}
+
+.explicacionesGreenStripe {
+    width: auto;
+    height: 0.1em;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #78AA41;
+    margin-bottom: 1em;
+}
+
+.porqueElegirCommonMarketPyme img {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.porqueElegirCommonMarketProductor {
+    width: 90%;
+    margin: 2em auto;
+    background-color: #1E1E19;
+    padding: 2em;
+    color: white;
+    position: relative;
+}
+
+.porqueElegirCommonMarketProductor h3 {
+    font-size: 2em;
+}
+
+.porqueElegirCommonMarketProductor img {
+    width: 100%;
+    margin-top: 2em;
+}
+
+/*  SLIDER  */
+section.awSlider .carousel {
+    display: table;
+    z-index: 2;
+    -moz-box-shadow: 0 0 4px #444;
+    -webkit-box-shadow: 0 0 4px #444;
+    box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+}
+
+section.awSlider {
+    margin: 30px auto;
+    padding: 30px;
+    position: relative;
+    display: table;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+section.awSlider:hover>img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+section.awSlider img {
+    pointer-events: none;
+}
+
+section.awSlider>img {
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+    transition: all .3s;
+    filter: blur(1.8vw);
+    -webkit-filter: blur(2vw);
+    -moz-filter: blur(2vw);
+    -o-filter: blur(2vw);
+    -ms-filter: blur(2vw);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: .5;
+}
+
+.item img {
+    background-color: #141313;
+    opacity: 0.9;
+}
+
+/*  NUESTRO CONTACTO  */
+.nuestroContacto {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textobannerNuestroContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-end;
+}
+
+.textobannerNuestroContacto h2 {
+    width: 40%;
+    margin-bottom: 1em;
+}
+
+.textobannerNuestroContacto img {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.lineaSeparacionNuestroContacto {
+    width: auto;
+    height: 0.1em;
+    margin-top: -1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #333333;
+    margin-bottom: 1em;
+}
+
+.nuestroContacto p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.formularios {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formu form {
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.formu form input {
+    border: none;
+    border-bottom: 0.1em solid #333333;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+
+.formu form input:focus {
+    border-bottom: 0.3em solid #5a9841;
+    outline: none;
+}
+
+.formu form input:active {
+    border: none;
+}
+
+.formu form label {
+    font-size: 1.2em;
+}
+
+.formularios p {
+    margin-top: 3em;
+    margin-bottom: -1.4em;
+    font-size: 1.4em;
+}
+
+.formu form button {
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.formularios h2 {
+    margin-bottom: 1em;
+}
+
+/*  CERTIFICADOS  */
+.fondoCertificado {
+    margin-top: 3em;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/cowCertificados.jpg");
+}
+
+.textosCertificado {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+}
+
+.textosCertificado h1 {
+    padding-top: 1em;
+}
+
+.logoSantander {
+    width: 100%;
+}
+
+.logoSantander img {
+    width: 100%;
+}
+
+/*  FOOTER  */
+footer {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sm {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0.5%;
+}
+
+.sm img {
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pols {
+    margin: 10px;
+}
+
+.pols>label {
+    font-size: 12px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.pols>a {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer !important;
+}
+
+footer .pols .direccion {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+footer .pols .polit {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .pols .polit a {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #333333;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+footer .pols .polit a:hover {
+    color: #7EC144;
+    cursor: pointer;
+}
+
+footer .pols .direccion a {
+    color: black;
+}
+
+.right-block-2 {
+    display: none;
+}
+
+
+@media (min-width: 500px) {
+
+    .textobajo{
+        margin-top: 6em;
+    }
+
+    .ahorro img {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .cooperacion img {
+        width: 20%;
+        margin: 0 auto;
+    }
+    .eficiencia img {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .economia img {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 15em;
+    
+    }
+
+    .btn-inform {
+        background-color: #5a9841;
+        border-radius: 2em;
+        border: none;
+        width: 100%;
+        font-size: 1.25em;
+        padding: 0.5em 3em;
+        margin-top: 2em;
+        color: white;
+    }
+}
+
+
+@media (min-width: 600px) {
+
+    .textobajo{
+        margin-top: 12em;
+    }
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 20em;
+    
+    }
+}

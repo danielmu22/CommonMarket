@@ -1,0 +1,1811 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
+    font-family: verdana;
+    src: url(./../fonts/40474_VerdanaBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+    width: 100%;
+}
+
+/*  BARRA DE NAVEGACIÓN  */
+#nav {
+    background-color: white;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+#nav .logo-menu {
+    display: block;
+}
+
+
+
+#nav .logo-menu ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    align-self: center;
+    margin-top: 0.5em;
+}
+
+#nav .logo-menu>ul>li a {
+    transition: all 300ms;
+}
+
+.barraSeparadora {
+    border-left: 2px solid #5a9841;
+}
+
+#nav .logo-menu>ul>li a {
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav .logo-menu>ul>li a:hover {
+    color: #78AA41;
+    text-decoration: none;
+}
+
+#nav .logo-menu>ul>li a:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+.green-stripe {
+    height: 0.2em;
+    margin-top: 0.25%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #78AA41;
+    margin-bottom: 0.25em;
+}
+
+/*  PRIMERA SECCIÓN DESCUBRE COMMON MARKET Y FORMULARIO  */
+.green {
+    color: #78AA41;
+    font-weight: bold;
+}
+
+.primeraSeccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1em;
+}
+
+.descripcionVideo {
+    width: 80%;
+    margin: 0 auto 2em;
+}
+
+.descripcionVideo h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.descripcionVideo p {
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.formularioSocioNuevo {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formularioSocioNuevo p {
+    margin-top: 3em;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+
+.formularioSocioNuevo form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+.formularioSocioNuevo form input {
+    width: 80%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.formularioSocioNuevo form input:focus {
+    border: 2px solid #78AA41;
+    box-shadow: 0 0 3px #78AA41;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.formularioSocioNuevo form input[type=number] {
+    width: 80%;
+    padding: 8px 20px;
+    margin: 17.5px 0;
+    display: inline-block;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.formularioSocioNuevo form input[type=number]:focus {
+    border: 2px solid #78AA41;
+    box-shadow: 0 0 3px #78AA41;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.cajaTelefono {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.telefonoCaptcha {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.descripcionVideo iframe {
+    margin-top: 20px;
+    width: 100%;
+    height: 18em;
+
+}
+
+.containerbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    font-size: 16px;
+    border-radius: 2em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Helvetica;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 2em;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin: 1em;
+}
+
+.btn:hover {
+    background-color: rgb(46, 44, 44);
+    color: #5a9841;
+    transition: 0.5s;
+}
+
+/*  SOBRE NOSOTROS  */
+#sobreNosotros {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #1E1E19;
+
+}
+
+#sobreNosotros .textobanner {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    align-self: flex-start;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 10%;
+    height: 100px;
+}
+
+#sobreNosotros .textobanner img {
+    width: 195px;
+    height: 100px;
+}
+
+#sobreNosotros .textobanner .eslogan {
+    height: 60%;
+    width: 100%;
+}
+
+#sobreNosotros .textobanner .eslogan .connect {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    font-size: 2em;
+    font-family: verdana;
+    margin-left: 4em;
+}
+
+#sobreNosotros .textobanner .nosotros h3 {
+    font-size: 1.2em;
+    margin-top: -3.5em;
+    margin-left: 1em;
+}
+
+#sobreNosotros .textobanner .nosotros span {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+#sobreNosotros .textobanner .nosotros {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#sobreNosotros .info {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    justify-items: center;
+    color: white;
+
+}
+
+.ahorro {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em;
+}
+
+.ahorro img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.ahorro p {
+    text-align: center;
+}
+
+.tituloSobreNosotros {
+    font-size: 1.3em;
+}
+
+.textoSobreNosotros {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+#sobreNosotros .info .ahorro .white-stripe,
+#sobreNosotros .info .cooperacion .white-stripe,
+#sobreNosotros .info .eficiencia .white-stripe,
+#sobreNosotros .info .economia .white-stripe {
+    width: auto;
+    height: 0.1em;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(61, 61, 61);
+}
+
+.textobajo {
+    margin-top: 2em;
+    border-top: 1px solid white;
+    position: relative;
+}
+
+.cooperacion {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em;
+}
+
+.cooperacion img {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.cooperacion p {
+    text-align: center;
+}
+
+.eficiencia {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em;
+}
+
+.eficiencia img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.eficiencia p {
+    text-align: center;
+}
+
+.economia {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em;
+}
+
+.economia img {
+    width: 32%;
+    margin: 0 auto;
+}
+
+.economia p {
+    text-align: center;
+}
+
+.img-banner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-banner img {
+    height: 200px;
+    width: auto;
+    margin-top: 2em;
+
+}
+
+.btn-inform {
+    background-color: #5a9841;
+    border-radius: 2em;
+    border: none;
+    width: 100%;
+    font-size: 1.25em;
+    padding: 0.5em 3em;
+    transition: all .3s;
+    color: white;
+}
+
+.btn-inform:hover{
+    background-color: #30581e;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 0.15em 2em;
+}
+
+.btn-inform2 {
+    background-color: #5a9841;
+    border-radius: 2em;
+    border: none;
+    width: 100%;
+    font-size: 1.25em;
+    padding: 0.5em 3em;
+    margin: 1em;
+    color: white;
+    width: 80%;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: -2em;
+}
+
+.buttonInformation {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*  CUALIDADES EMPRESA  */
+.cualidadesEmpresa {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: white;
+}
+
+.logoconFlechas {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+    width: 300px;
+}
+
+.calidadVida {
+    width: 25%;
+    position: absolute;
+    top: 2em;
+    left: 11%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.calidadVida img {
+    width: 125px;
+    height: 125px;
+    border-radius: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.cualidadesEmpresa h3 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.cualidadesEmpresa p {
+    text-align: center;
+}
+
+.carneSabrosa {
+    width: 25%;
+    position: absolute;
+    top: 4em;
+    right: 11%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.carneSabrosa img {
+    width: 125px;
+    height: 125px;
+    border-radius: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.masCualidades {
+    width: 35%;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.masCualidades img {
+    width: 125px;
+    height: 125px;
+    border-radius: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-right: 2em;
+}
+
+.botonMasInformacion {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.textoPDF {
+    color: white;
+    margin-top: 3em;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+/*  SLOGAN  */
+.fotoVacas {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url("./../img/vacasSlogan.jpg");
+    position: relative;
+}
+
+.textoFotoVacas {
+    width: 60%;
+    margin: 3em auto;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+/*  POR QUE ELEGIR COMMON MARKET  */
+
+.porqueElegirCommonMarketPyme {
+    width: 90%;
+    margin: 2em auto;
+    background-color: #1E1E19;
+    padding: 2em;
+    color: white;
+    position: relative;
+}
+
+.porqueElegirCommonMarketPyme h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.explicaciones {
+    display: flex;
+    align-items: center;
+}
+
+.explicaciones p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #adacac;
+
+    text-align: center;
+}
+
+.explicacionesGreenStripe {
+    width: auto;
+    height: 5em;
+    margin: 1em;
+    width: 0.5em;
+    background-color: #78AA41;
+    margin-bottom: 1em;
+}
+
+.porqueElegirCommonMarketPyme img {
+    margin-top: 2em;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.porqueElegirCommonMarketProductor {
+    width: 90%;
+    margin: 2em auto;
+    background-color: #1E1E19;
+    padding: 1em 2em;
+    color: white;
+    position: relative;
+}
+
+.porqueElegirCommonMarketProductor h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.porqueElegirCommonMarketProductor img {
+    margin-top: 1em;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*  SLIDER  */
+section.awSlider .carousel {
+    display: table;
+    z-index: 2;
+    -moz-box-shadow: 0 0 4px #444;
+    -webkit-box-shadow: 0 0 4px #444;
+    box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+}
+
+section.awSlider {
+    margin: 30px auto;
+    padding: 30px;
+    position: relative;
+    display: table;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+section.awSlider:hover>img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+section.awSlider img {
+    pointer-events: none;
+}
+
+section.awSlider>img {
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+    transition: all .3s;
+    filter: blur(1.8vw);
+    -webkit-filter: blur(2vw);
+    -moz-filter: blur(2vw);
+    -o-filter: blur(2vw);
+    -ms-filter: blur(2vw);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: .5;
+}
+
+.item img {
+    background-color: #141313;
+    opacity: 0.9;
+}
+
+/*  NUESTRO CONTACTO  */
+.nuestroContacto {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textobannerNuestroContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textobannerNuestroContacto h2 {
+    width: 40%;
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.textobannerNuestroContacto img {
+    width: 50%;
+    margin-left: 10em;
+}
+
+.lineaSeparacionNuestroContacto {
+    width: auto;
+    height: 0.1em;
+    margin-top: -1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #333333;
+    margin-bottom: 2em;
+}
+
+.nuestroContacto h2 {
+    margin-top: 1.5em;
+    font-size: 3em;
+}
+
+
+.nuestroContacto p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.formularios {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form2 .formu form button {
+    margin-top: 4.5em;
+}
+
+.formu form {
+    display: grid;
+    grid-template-columns: 1;
+    margin-right: 6em;
+}
+
+.formu form input {
+    border: none;
+    border-bottom: 0.1em solid #333333;
+    margin-bottom: 0.5em;
+
+}
+
+.formu form input:focus {
+    border-bottom: 0.2em solid #5a9841;
+    outline: none;
+}
+
+.formu form input:active {
+    border: none;
+}
+
+.formu form label {
+    font-size: 1.2em;
+}
+
+.formularios p {
+    margin-top: 3em;
+    margin-bottom: -1em;
+    font-size: 2em;
+}
+
+.formu form button {
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.formularios h2 {
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+/*  CERTIFICADOS  */
+.certificado {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.fondoCertificado {
+    margin-top: 3em;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../img/cowCertificados.jpg");
+}
+
+.textosCertificado {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    text-align: start;
+}
+
+.textosCertificado h1 {
+    font-size: 3em;
+}
+
+.textosCertificado p {
+    padding-top: 1em;
+    font-size: 1.3em;
+}
+
+.logoSantander {
+    width: 80%;
+}
+
+.logoSantander img {
+    width: 100%;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sm {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0.5%;
+}
+
+.sm img {
+    width: 50px;
+    height: 41px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pols {
+    margin: 10px;
+}
+
+.pols>label {
+    font-size: 12px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.pols>a {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer !important;
+}
+
+footer .pols .direccion {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+footer .pols .polit {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .pols .polit a {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #333333;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+footer .pols .polit a:hover {
+    color: #7EC144;
+    cursor: pointer;
+}
+
+footer .pols .direccion a {
+    color: black;
+}
+
+.right-block-2 {
+    display: none;
+}
+
+
+@media (min-width: 1300px) {
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 22em;
+
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 2.7em;
+        font-size: 3em;
+    }
+
+}
+
+
+@media (min-width: 1500px) {
+    .textoFotoVacas {
+        margin: 2em auto;
+        font-size: 3em;
+    }
+
+    .descripcionVideo h1 {
+        font-size: 3em;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 3em;
+        font-size: 3em;
+    }
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 26em;
+
+    }
+
+    .calidadVida {
+        width: 20%;
+        position: absolute;
+        top: 4em;
+        left: 15em;
+    }
+
+    .carneSabrosa {
+        width: 20%;
+        position: absolute;
+        top: 2em;
+        right: 19em;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 3.5em;
+        font-size: 3em;
+    }
+}
+
+
+@media (min-width: 1800px) {
+
+    .descripcionVideo h1 {
+        font-size: 3.5em;
+    }
+
+    #nav .logo-menu>ul>li a{
+        font-size: 2em;
+    }
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 30em;
+
+    }
+
+    .descripcionVideo p{
+        font-size: 1.4em;
+    }
+
+    .formularioSocioNuevo p{
+        font-size: 1.4em;
+    }
+
+    .formularioSocioNuevo form{
+        font-size: 1.54em;
+    }
+
+    .btn{
+        font-size: 1em;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 4.5em;
+        font-size: 3em;
+    }
+
+    .calidadVida {
+        width: 20%;
+        position: absolute;
+        top: 4em;
+        left: 20em;
+    }
+
+    .carneSabrosa {
+        width: 20%;
+        position: absolute;
+        top: 2em;
+        right: 23em;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .textobannerNuestroContacto h2 {
+        margin-top: 0.5em;
+    }
+
+    #sobreNosotros .textobanner img {
+        width: 250px;
+        height: 140px;
+    }
+
+    #sobreNosotros .textobanner .nosotros h3 {
+        font-size: 2em;
+        margin-top: -3em;
+        margin-left: 1em;
+    }
+
+    #sobreNosotros .textobanner .eslogan .connect {
+        font-size: 3.5em;
+    }
+
+    #sobreNosotros .textobanner {
+        height: 140px;
+    }
+
+    .tituloSobreNosotros {
+        font-size: 2em;
+    }
+
+    .textoSobreNosotros {
+        font-size: 1.3em;
+    }
+
+    .img-banner img {
+        height: 300px;
+        width: auto;
+        margin-top: 2em;
+    }
+
+    .textoPDF {
+        font-size: 1.5em;
+    }
+
+    .btn-inform:hover{
+        background-color: #30581e;
+        font-size: 2.2em;
+        font-weight: bold;
+        padding: 0.2em 2em;
+    }
+
+    .btn-inform2 {
+        font-size: 1.7em;
+    }
+
+    .textoFotoVacas {
+        font-size: 4em;
+        margin: 1em auto;
+    }
+
+    .cualidadesEmpresa h3 {
+        font-size: 2em;
+    }
+
+    .cualidadesEmpresa p {
+        font-size: 1.4em;
+    }
+
+    .btn-inform {
+        font-size: 1.7em;
+        margin-top: 1em;
+    }
+
+    .porqueElegirCommonMarketPyme h3 {
+        font-size: 3em;
+    }
+
+    .explicaciones p {
+        font-size: 1.4em;
+    }
+
+    .porqueElegirCommonMarketPyme img {
+        margin-top: 2em;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .porqueElegirCommonMarketProductor h3 {
+        font-size: 3em;
+    }
+
+    .porqueElegirCommonMarketProductor img {
+        margin-top: 1em;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 4.5em;
+    }
+
+    .nuestroContacto p {
+        font-size: 1.6em;
+    }
+
+    .formu form label {
+        font-size: 1.5em;
+    }
+
+    .formu form button{
+        font-size: 1.7em;
+    }
+
+    .form2 .formu form button{
+        margin-top: 3.5em;
+    }
+
+    .textosCertificado h1{
+        font-size: 4em;
+    }
+
+    .textosCertificado p{
+        font-size: 1.7em;
+    }
+
+    footer {
+        height: 150px;
+        font-size: 1.5em;
+    }
+
+    .sm img {
+        width: 80px;
+        height: 66px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 2100px) {
+    .certificado{
+        height: 500px;
+    }
+
+    .nuestroContacto h2{
+        margin-top: 7em;
+    }
+}
+
+
+@media (min-width: 2400px) {
+
+    .descripcionVideo h1 {
+        font-size: 4.5em;
+    }
+
+    #nav .logo-menu>ul>li a{
+        font-size: 3em;
+    }
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 30em;
+
+    }
+
+    .descripcionVideo p{
+        font-size: 2em;
+    }
+
+    .formularioSocioNuevo p {
+        font-size: 2em;
+    }
+
+    .formularioSocioNuevo form{
+        font-size: 2em;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 4.5em;
+        font-size: 3em;
+    }
+
+    .cualidadesEmpresa {
+        width: 100%;
+        height: 800px;
+        position: relative;
+        background-color: white;
+    }
+
+    .logoconFlechas{
+        width: 17%;
+    }
+
+    .calidadVida {
+        width: 25%;
+        position: absolute;
+        top: 4em;
+        left: 25em;
+    }
+
+    .carneSabrosa {
+        width: 25%;
+        position: absolute;
+        top: 2em;
+        right: 23em;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .masCualidades img, .carneSabrosa img, .calidadVida img{
+        width: 200px;
+        height: 200px;
+    }
+    .textobannerNuestroContacto h2 {
+        margin-top: 0.5em;
+    }
+
+    #sobreNosotros .textobanner img {
+        width: 300px;
+        height: 170px;
+    }
+
+    #sobreNosotros .textobanner .nosotros h3 {
+        font-size: 2.5em;
+        margin-top: -2em;
+        margin-left: 1em;
+    }
+
+    #sobreNosotros .textobanner .eslogan .connect {
+        font-size: 4.5em;
+    }
+
+    #sobreNosotros .textobanner {
+        height: 170px;
+    }
+
+
+    .tituloSobreNosotros {
+        font-size: 3em;
+    }
+
+    .textoSobreNosotros {
+        font-size: 2em;
+    }
+
+    .img-banner img {
+        height: 350px;
+        width: auto;
+        margin-top: 2em;
+    }
+
+    .textoPDF {
+        font-size: 2em;
+    }
+
+    .btn-inform:hover{
+        background-color: #30581e;
+        font-size: 4em;
+        font-weight: bold;
+        padding: 0.2em 2em;
+    }
+
+    .btn-inform2 {
+        font-size: 2.5em;
+    }
+
+    .fotoVacas{
+        height: 400px;
+    }
+
+    .textoFotoVacas {
+        font-size: 5em;
+        margin: 2em auto;
+    }
+
+    .cualidadesEmpresa h3 {
+        font-size: 3em;
+    }
+
+    .cualidadesEmpresa p {
+        font-size: 2em;
+    }
+
+    .btn-inform {
+        font-size: 3em;
+        margin-top: 1em;
+    }
+
+    .porqueElegirCommonMarketPyme h3 {
+        font-size: 5em;
+    }
+
+    .explicaciones p {
+        font-size: 2em;
+    }
+
+    .porqueElegirCommonMarketPyme img {
+        margin-top: 2em;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .porqueElegirCommonMarketProductor h3 {
+        font-size: 5em;
+    }
+
+    .porqueElegirCommonMarketProductor img {
+        margin-top: 1em;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 8em;
+    }
+
+    .nuestroContacto p {
+        font-size: 2em;
+    }
+
+    .formularios h2{
+        font-size: 4em;
+    }
+
+    .formularios p{
+        font-size: 3em;
+    }
+
+    .formu form label {
+        font-size: 2em;
+    }
+
+    .formu form button{
+        font-size: 1.7em;
+    }
+
+    .form2 .formu form button{
+        margin-top: 3.5em;
+    }
+
+    .textosCertificado h1{
+        font-size: 6em;
+    }
+
+    .textosCertificado p{
+        font-size: 2.5em;
+    }
+
+    .certificado{
+        height: 600px;
+    }
+
+    footer {
+        height: 200px;
+        font-size: 2em;
+    }
+
+    .sm img {
+        width: 100px;
+        height: 83px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 3200px) {
+
+    .descripcionVideo h1 {
+        font-size: 5em;
+    }
+
+    #nav .logo-menu>ul>li a{
+        font-size: 4em;
+    }
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 45em;
+
+    }
+
+    .descripcionVideo p{
+        font-size: 2.5em;
+    }
+
+    .formularioSocioNuevo p {
+        font-size: 2.5em;
+    }
+
+    .formularioSocioNuevo form{
+        font-size: 2.5em;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 4.5em;
+        font-size: 4em;
+    }
+
+    .cualidadesEmpresa {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        background-color: white;
+    }
+
+    .logoconFlechas{
+        width: 17%;
+    }
+
+    .calidadVida {
+        width: 25%;
+        position: absolute;
+        top: 4em;
+        left: 25em;
+    }
+
+    .carneSabrosa {
+        width: 25%;
+        position: absolute;
+        top: 2em;
+        right: 23em;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .masCualidades img, .carneSabrosa img, .calidadVida img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .textobannerNuestroContacto h2 {
+        margin-top: 0.5em;
+    }
+
+    #sobreNosotros .textobanner img {
+        width: 310px;
+        height: 180px;
+    }
+
+    #sobreNosotros .textobanner .nosotros h3 {
+        font-size: 3em;
+        margin-top: -2em;
+        margin-left: 1em;
+    }
+
+    #sobreNosotros .textobanner .eslogan .connect {
+        font-size: 5em;
+    }
+
+    #sobreNosotros .textobanner {
+        height: 180px;
+    }
+
+
+    .tituloSobreNosotros {
+        font-size: 3.5em;
+    }
+
+    .textoSobreNosotros {
+        font-size: 2.5em;
+    }
+
+    .img-banner img {
+        height: 400px;
+        width: auto;
+        margin-top: 2em;
+    }
+
+    .textoPDF {
+        font-size: 2.5em;
+    }
+
+    .btn-inform:hover{
+        background-color: #30581e;
+        font-size: 5em;
+        font-weight: bold;
+        padding: 0.2em 2em;
+    }
+
+    .btn-inform2 {
+        font-size: 3em;
+    }
+
+    .fotoVacas{
+        height: 400px;
+    }
+
+    .textoFotoVacas {
+        font-size: 5em;
+        margin: 2em auto;
+    }
+
+    .cualidadesEmpresa h3 {
+        font-size: 4em;
+    }
+
+    .cualidadesEmpresa p {
+        font-size: 2.5em;
+    }
+
+    .btn-inform {
+        font-size: 3.5em;
+        margin-top: 1em;
+    }
+
+    .porqueElegirCommonMarketPyme h3 {
+        font-size: 5.5em;
+    }
+
+    .explicaciones p {
+        font-size: 3em;
+    }
+
+    .porqueElegirCommonMarketPyme img {
+        margin-top: 2em;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .porqueElegirCommonMarketProductor h3 {
+        font-size: 5em;
+    }
+
+    .porqueElegirCommonMarketProductor img {
+        margin-top: 1em;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 7.5em;
+    }
+
+    .nuestroContacto p {
+        font-size: 2.7em;
+    }
+
+    .formularios h2{
+        font-size: 4.5em;
+    }
+
+    .formularios p{
+        font-size: 3em;
+    }
+
+    .formu form label {
+        font-size: 2.5em;
+    }
+
+    .formu form button{
+        font-size: 2em;
+    }
+
+    .form2 .formu form button{
+        margin-top: 3.5em;
+    }
+
+    .textosCertificado h1{
+        font-size: 6em;
+    }
+
+    .textosCertificado p{
+        font-size: 2.5em;
+    }
+
+    .certificado{
+        height: 600px;
+    }
+
+    footer {
+        height: 200px;
+        font-size: 2em;
+    }
+
+    .sm img {
+        width: 100px;
+        height: 83px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 3800px) {
+
+    .descripcionVideo h1 {
+        font-size: 5.5em;
+    }
+
+    #nav .logo-menu>ul>li a{
+        font-size: 4em;
+    }
+
+    .descripcionVideo iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 60em;
+
+    }
+
+    .descripcionVideo p{
+        font-size: 3em;
+    }
+
+    .formularioSocioNuevo p {
+        font-size: 3em;
+    }
+
+    .formularioSocioNuevo form{
+        font-size: 3em;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 4.5em;
+        font-size: 5em;
+    }
+
+    .cualidadesEmpresa {
+        width: 100%;
+        height: 1200px;
+        position: relative;
+        background-color: white;
+    }
+
+    .masCualidades img, .carneSabrosa img, .calidadVida img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .logoconFlechas{
+        width: 17%;
+    }
+
+    .calidadVida {
+        width: 25%;
+        position: absolute;
+        top: 4em;
+        left: 25em;
+    }
+
+    .carneSabrosa {
+        width: 25%;
+        position: absolute;
+        top: 2em;
+        right: 23em;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .masCualidades{
+        top: 60%;
+    }
+
+    .textobannerNuestroContacto h2 {
+        margin-top: 0.5em;
+    }
+
+    #sobreNosotros .textobanner img {
+        width: 400px;
+        height: 250px;
+    }
+
+    #sobreNosotros .textobanner .nosotros h3 {
+        font-size: 4em;
+        margin-top: -2em;
+        margin-left: 1em;
+    }
+
+    #sobreNosotros .textobanner .eslogan .connect {
+        font-size: 6em;
+    }
+
+    #sobreNosotros .textobanner {
+        height: 250px;
+    }
+
+
+    .tituloSobreNosotros {
+        font-size: 4.5em;
+    }
+
+    .textoSobreNosotros {
+        font-size: 3em;
+    }
+
+    .img-banner img {
+        height: 500px;
+        width: auto;
+        margin-top: 2em;
+    }
+
+    .textoPDF {
+        font-size: 3em;
+    }
+
+    .btn-inform:hover{
+        background-color: #30581e;
+        font-size: 6em;
+        font-weight: bold;
+        padding: 0.2em 2em;
+    }
+
+    .btn-inform2 {
+        font-size: 3.5em;
+    }
+
+    .fotoVacas{
+        height: 600px;
+    }
+
+    .textoFotoVacas {
+        font-size: 6em;
+        margin: 2em auto;
+    }
+
+    .cualidadesEmpresa h3 {
+        font-size: 4em;
+    }
+
+    .cualidadesEmpresa p {
+        font-size: 3em;
+    }
+
+    .btn-inform {
+        font-size: 4em;
+        margin-top: 1em;
+    }
+
+    .porqueElegirCommonMarketPyme h3 {
+        font-size: 6em;
+    }
+
+    .explicaciones p {
+        font-size: 3em;
+    }
+
+    .porqueElegirCommonMarketPyme img {
+        margin-top: 2em;
+        width: 100%;
+        height: 1000px;
+        object-fit: cover;
+    }
+
+    .porqueElegirCommonMarketProductor h3 {
+        font-size: 6em;
+    }
+
+    .porqueElegirCommonMarketProductor img {
+        margin-top: 1em;
+        width: 100%;
+        height: 1000px;
+        object-fit: cover;
+    }
+
+    .nuestroContacto h2 {
+        margin-top: 7em;
+    }
+
+    .nuestroContacto p {
+        font-size: 3em;
+    }
+
+    .formularios h2{
+        font-size: 6em;
+    }
+
+    .formularios p{
+        font-size: 4em;
+    }
+
+    .formu form label {
+        font-size: 3em;
+    }
+
+    .formu form button{
+        font-size: 2.2em;
+    }
+
+    .form2 .formu form button{
+        margin-top: 3.5em;
+    }
+
+    .textosCertificado h1{
+        font-size: 7em;
+    }
+
+    .textosCertificado p{
+        font-size: 3em;
+    }
+
+    .certificado{
+        height: 800px;
+    }
+
+    footer {
+        height: 300px;
+        font-size: 3em;
+    }
+
+    .sm img {
+        width: 120px;
+        height: 92px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}

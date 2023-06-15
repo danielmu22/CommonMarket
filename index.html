@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Market</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/iconoPagina.ico">
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+
+    <!--<link rel="stylesheet" media="screen and (min-width: 700px)" href="./css/styles.css" />-->
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobileStyles.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css/tabletStyles.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/computerStyles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/aos.css">
+</head>
+
+<body>
+    <picture class="banner">
+        <source media="(max-width: 599px)" srcset="./img/bannerMobile.png">
+        <source media="(min-width: 600px)" srcset="./img/bannerDesktop.png">
+        <img class="banner" src="./img/bannerDesktop.png" alt="CommonMarket banner">
+    </picture>
+
+    <nav id="nav">
+        <div class="logo-menu">
+            <ul>
+                <li>
+                    <a href="#pymes">Pymes </a>
+                </li>
+                <li class="barraSeparadora">
+                    <a href="#productores">Productores</a>
+                </li>
+                <li class="barraSeparadora">
+                    <a href="#sobreNosotros">Sobre Nosotros </a>
+                </li>
+                <li class="barraSeparadora">
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li class="barraSeparadora">
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="green-stripe"></div>
+    </nav>
+
+    <section class="primeraSeccion">
+        <article class="descripcionVideo">
+            <h1>Descúbre CommonMarket.</h1>
+            <p><span class="green">CommonMarket</span> es una plataforma digital que modificará los métodos
+                convencionales de aprovisionamiento. Conectamos tanto a pymes como a productores para realizar <span
+                    class="green">pedidos comunes</span>, creando
+                <span class="green">economías colaborativas</span> en ambos lados del mercado.
+            </p>
+            <p>Siempre contando con ganaderos que practiquen una <span class="green">producción sostenible</span> y
+                contando con un buen trato y cuidados hacia los animales.</p>
+
+            <iframe src="https://www.youtube.com/embed/TC1ukzaIf1o?autoplay=1&mute=1" frameborder="0" encrypted-media
+                allowfullscreen title="Video Common Market"></iframe>
+        </article>
+        <article class="formularioSocioNuevo">
+            <p>Si quieres saber como fomentar la <span class="green">producción sostenible</span> y además <span
+                    class="green">reducir tus gastos </span>de aprovisionamiento en un <span class="green">15%</span>
+                rellena esta <span class="green">encuesta</span></p>
+            <p></p>
+
+            <form action="https://formspree.io/f/xgerobwn" method="POST">
+                <label id="name">Nombre</label>
+                <input name=nombre type="text" placeholder="Escribe aquí tu nombre" />
+                <label id="email">Email</label>
+                <input name=email type="email" placeholder="Escribe aquí tu email" />
+                <label id="tel">Teléfono</label>
+                <div class="telefonoCaptcha">
+                    <input name=telefono type="number" class="alejado" placeholder="+34 -" />
+
+                </div>
+
+                <div class="containerbtn">
+
+                    <a><button type="submit" class="btn">Hazte socio</button></a>
+                </div>
+            </form>
+        </article>
+    </section>
+
+    <section id="sobreNosotros">
+        <div class="textobanner">
+            <div class="eslogan">
+                <h2 class="connect">Connecting to inspire.</h2>
+
+                <div id="page1" class="nosotros">
+                    <h3>Sobre <span class="green"> Nosotros</span></h3>
+                </div>
+            </div>
+            <img src="img/circuloSobreNosotros.png" alt="Teléfono que contiene una tienda digital">
+        </div>
+        <div class="info margenes">
+            <div class="ahorro" data-aos="fade-up" data-aos-duration="500" data-aos-once="false">
+                <img src="img/icoAhorro.png" alt="Hucha de cerdito">
+                <p class="tituloSobreNosotros">Ahorro</p>
+                <div class="white-stripe"></div>
+                <p class="textoSobreNosotros">Reducción estimada de un 15% en costes de aprovisionamiento.</p>
+            </div>
+            <div class="cooperacion" data-aos="fade-down" data-aos-duration="700" data-aos-once="false">
+                <img src="img/icoCooperar.png" alt="Dos personas dandose la mano">
+                <p class="tituloSobreNosotros">Cooperación</p>
+                <div class="white-stripe"></div>
+                <p class="textoSobreNosotros">Agrupamos tanto a productores como a pymes independientes con el objetivo
+                    de realizar
+                    pedidos comunes.</p>
+            </div>
+            <div class="eficiencia" data-aos="fade-up" data-aos-duration="500" data-aos-once="false">
+                <img src="img/icoEficiencia.png" alt="Persona concentrada en su trabajo">
+                <p class="tituloSobreNosotros"> Eficiencia</p>
+                <div class="white-stripe"></div>
+                <p class="textoSobreNosotros">Automatización y optimización en los procesos de pedido a través de la IA.
+                </p>
+            </div>
+            <div class="economia" data-aos="fade-down" data-aos-duration="700" data-aos-once="false">
+                <img src="img/icoColaborativas.png" alt="Globo terraqueo">
+                <p class="tituloSobreNosotros">Economías Colaborativas</p>
+                <div class="white-stripe"></div>
+                <p class="textoSobreNosotros">Agrupamos individuos independientes en ambos lados del mercado, creando
+                    cadenas de
+                    suministro y aprovisionamiento.</p>
+            </div>
+        </div>
+        <div class="textobajo">
+            <div class="img-banner">
+                <div class="information">
+                    <img src="img/seccionBotonesInfo.png" alt="Apretón de manos entre dos personas">
+                    <div class="botonbanner">
+                        <p class="textoPDF">
+                            CommonMarket conecta los dos lados del mercado, facilitando su agrupación mediante IA,
+                            consiguiendo economías de escala de producción y de aprovisionamiento. Estas agrupaciones
+                            simutáneas arriba y abajo del mercado serán propuestas por el sistema permitiendo
+                            la oferta de nuevas propuestas de valor y la disminución de los costes, permitiendo la
+                            mejora de
+                            la competitividad y de los márgenes. Esto debido, como decimos, no sólo por el ahorro de
+                            costes,
+                            sino también por la aparición
+                            de nuevas oportunidades y desarrollo de nuevos servicios innovadores.
+                        </p>
+                        <div class="buttonInformation">
+                            <a href="PDFs/PLANTILA PYMES.pdf" download="Plantilla para pymes.pdf"><button
+                                    class="btn-inform2">Pymes</button></a>
+                            <a href="PDFs/PLANTILLA PRODUCTORES.pdf" download="Plantilla para productores.pdf"><button
+                                    class="btn-inform2">Productores</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fotoVacas">
+            <h2 class="textoFotoVacas">Trabajamos con ganaderos que producen su carne de una <span class="green">manera
+                    sostenible</span></h2>
+        </div>
+
+        <div class="cualidadesEmpresa">
+            <div class="calidadVida"  data-aos="fade-down" data-aos-duration="700" data-aos-once="false">
+                <img src="img/calidadVida.jpg" alt="Foto de una vaca pastando en libertad">
+                <h3>Calidad de vida</h3>
+                <p>Los animales disfrutan de buena calidad de
+                    vida, crecen al ritmo que marca su propia
+                    biología sin ser hormonados ni sufrir estrés.</p>
+            </div>
+
+            <div class="carneSabrosa"  data-aos="fade-down" data-aos-duration="700" data-aos-once="false">
+                <img src="img/carneSabrosa.jpg" alt="Foto de care de primera calidad">
+                <h3>Carne sabrosa</h3>
+                <p>La carne es sabrosa y tierna, mucho más
+                    rica en vitaminas, betacarotenos y ácidos
+                    grasos Omega 3 que la carne industrial.</p>
+            </div>
+
+            <img class="logoconFlechas" src="img/flechasCiclo.png"
+                alt="Foto del logo de common market rodeado por 3 flechas">
+
+            <div class="masCualidades"  data-aos="fade-up" data-aos-duration="700" data-aos-once="false">
+                <img src="img/masCualidades.jpg" alt="Foto de un ganadeero cuidadndo de sus vacas">
+                <div>
+                    <h3>Más cualidades</h3>
+                    <p>Sus cualidades se mantienen intactas al no
+                        contener sustancias añadidas. Por lo que su
+                        sabor y aporte nutricional son más auténticos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="botonMasInformacion">
+        <a href="PDFs/PLANTILLA PRODUCCION SOSTENIBLE.pdf" download="Plantilla produccion sostenible.pdf"><button
+                class="btn-inform">Más información</button></a>
+    </div>
+
+    <section class="porqueElegirCommonMarket">
+        <div id="pymes" class="porqueElegirCommonMarketPyme">
+            <h3>¿Por qué elegir a <span class="green">CommonMarket</span>
+                si soy una <span class="green">pyme</span>?</h3>
+            <div class="explicaciones">
+                <p>Nos centramos en buscar las formas de ayudar al pequeño comercio, que
+                    supone la gran mayoría de empresas en nuestro país.
+                    Reducimos gastos relacionados con pedidos de materiales y stock.</p>
+                <div class="explicacionesGreenStripe"></div>
+                <p>Nos encargamos de agrupar pymes en función de sus necesidades, con
+                    el objetivo de aumentar su poder de negociación.</p>
+                <div class="explicacionesGreenStripe"></div>
+                <p>Contactamos directamente con productores de calidad, que produzcan
+                    de manera sostenible, incluso a distintas áreas geográficas, que antes no
+                    estaban a nuestro alcance.</p>
+            </div>
+
+            <!--  FALTA ESTE PDF  -->
+            <a href="PDFs/PRECIOS CMM.pdf" download="Precios.pdf"><button class="btn-inform">Precios</button></a>
+            <img src="img/porqueElegirCommonMarketPyme.jpg" alt="Una cocina y su plantilla">
+        </div>
+
+        <div id="productores" class="porqueElegirCommonMarketProductor">
+            <h3>¿Por qué elegir a <span class="green">CommonMarket</span>
+                si soy un <span class="green">productor</span>?</h3>
+            <div class="explicaciones">
+                <p>CommonMarket permite a los productores comercializar directamente
+                    sus productos en todo el territorio nacional, agrupando tanto pymes
+                    como productores con el objetivo de repartir los gastos de envío en cada
+                    unidad de transporte.</p>
+                <div class="explicacionesGreenStripe"></div>
+                <p>Ofrecen precios competitivos a cambio de pedidos con volúmenes
+                    grandes, reduciendo así en costes de gestión y aumentando el volumen
+                    de sus ventas de manera exponencial.</p>
+                <div class="explicacionesGreenStripe"></div>
+                <p>Agrupamos productores independientes con el objetivo de realizar pedidos
+                    comunes, permitiendoles adquirir ganado y materias primas de
+                    manera conjunta. Estimamos una reducción aproximada en costes de un
+                    15%.</p>
+            </div>
+            <a href="PDFs/POR QUÉ, PRODUCTORES.pdf" download="Beneficios.pdf"><button
+                    class="btn-inform">Beneficios</button></a>
+            <img src="img/porqueElegirCommonMarketProductor.jpg" alt="Ganadero cuidadndo de sus vacas">
+        </div>
+    </section>
+
+    <section class="awSlider">
+        <div class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target=".carousel" data-slide-to="0" class="active"></li>
+                <li data-target=".carousel" data-slide-to="1"></li>
+                <li data-target=".carousel" data-slide-to="2"></li>
+                <li data-target=".carousel" data-slide-to="3"></li>
+                <li data-target=".carousel" data-slide-to="4"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/imagenCarrousel1.png">
+                </div>
+                <div class="item">
+                    <img src="img/imagenCarrousel1.png">
+                </div>
+                <div class="item">
+                    <img src="img/imagenCarrousel1.png">
+                </div>
+                <div class="item">
+                    <img src="img/imagenCarrousel1.png">
+                </div>
+                <div class="item">
+                    <img src="img/imagenCarrousel1.png">
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Geri</span>
+            </a>
+            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">İleri</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="contacto" class="nuestroContacto">
+        <div class="textobannerNuestroContacto">
+            <h2>Nuestro <span class="green"> Contacto</span></h2>
+            <img src="img/contact-us.png" alt="Hombre respondidendo mensajes y llamadas en su oficina">
+        </div>
+        <div class="lineaSeparacionNuestroContacto"></div>
+        <p>CommonMarket promueve la cooperación, el apoyo al pequeño comercio
+            y la producción sostenible. Pretendemos contribuir a lograr una producción
+            y consumo responsables. Al contribuir con las pymes pretendemos ir en
+            contra de la acumulación de poder y monopolio que están alcanzando las
+            grandes superficies, que hacen que asistamos a un empobrecimiento rural
+            alarmante, a agresiones ambientales en aumento y a sistemas de
+            producción y comercio de alimentos altamente insostenibles.
+        </p>
+        </br>
+        <p>
+            Por ello, tanto desde el lado del consumo como el de la producción
+            sostenible, CommonMarket luchará por promocionar el papel de las pymes
+            en la economía.
+        </p>
+    </section>
+
+    <section class="formularios">
+        <div class="form1">
+            <p>Para</p>
+            <h2><span class="green">Pymes</span></h2>
+            <div class="formu">
+                <form action="https://formspree.io/f/xgerobwn" method="POST">
+                    <label id="name">Nombre de la pyme</label>
+                    <input name=pyme type="text" />
+                    <label id="representante">Representante de la pyme</label>
+                    <input name=representante type="text" />
+                    <label id="name">Dirección</label>
+                    <input name=direccion type="text" />
+                    <label id="email">Correo</label>
+                    <input name="_replyto" type="email" />
+                    <label id="name">Teléfono de contacto</label>
+                    <input name=telefono type="number" />
+                    <label id="email">Escribe tu pregunta:</label>
+                    <input name=pregunta type="text" />
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="form2">
+            <p>Para</p>
+            <h2><span class="green">Productores</span></h2>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <div class="formu">
+                <form action="https://formspree.io/f/xgerobwn" method="POST">
+                    <label id="name">Nombre del productor</label>
+                    <input name=Productor type="text" />
+                    <label id="dir">Dirección</label>
+                    <input name=direccion type="text" />
+                    <label id="email">Correo</label>
+                    <input type="email" name="_replyto" />
+                    <label id="tel">Teléfono de contacto</label>
+                    <input name=telefono type="number" />
+                    <label id="pregunta">Escribe tu pregunta:</label>
+                    <input name=pregunta type="text" />
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="fondoCertificado">
+        <div class="certificado">
+            <div class="textosCertificado">
+                <h1>Reconocimientos</h1>
+                <p>CommonMarket es uno de los 13 proyectos seleccionados por la Universidad Carlos III de Madrid para
+                    participar en el programa de emprendimiento Explorer 2021 en el Space de la Uc3m, donde actualmente
+                    seguimos formándonos de la mano de grandes
+                    profesionales.
+                </p>
+            </div>
+            <div class="logoSantander">
+                <img src="img/santanderX.png" alt="Logo Santander Explorer">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="sm">
+            <a href="https://www.instagram.com/commonmarket.es/?hl=es" target="_blank"><img
+                    src="img/instagram-icon.png"></a>
+            <a href="https://www.youtube.com/channel/UC1ddCHRQjfThaagvJYyx81g/featured" target="_blank"><img
+                    src="img/youtube-icon.png"></a>
+            <a href="https://www.linkedin.com/company/commonmarket/" target="_blank"><img
+                    src="img/linkedin-icon.png"></a>
+        </div>
+        <div class="pols margenes">
+            <div class="direccion">
+                <a><label>direccion@commonmarket.es</label></a>
+            </div>
+            <div class="polit">
+                <a href="privacidad.html"> Politica de privacidad</a>
+                <a href="aviso.html">Aviso Legal</a>
+                <a href="cookies.html">Politica de cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
